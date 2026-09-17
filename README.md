@@ -109,11 +109,6 @@ Resumo:
 7/7 testes passaram.
 ```
 
-> Observação: este script testa a lógica de negócio das services com o
-> ViaCEP simulado (mock do `fetch`). Ele não substitui o teste manual via
-> Thunder Client contra a API real e o servidor Express rodando — recomenda-se
-> fazer os dois antes da entrega final.
-
 ## Observações de design
 
 - O **controller** só cuida de HTTP (ler request, chamar service, devolver JSON).
