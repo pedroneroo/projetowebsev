@@ -81,18 +81,7 @@ Lista todos os clientes cadastrados (em memória, some ao reiniciar o servidor).
 | Nome vazio            | POST /clientes sem "nome"      | 400                 |
 | Listar clientes       | GET /clientes                  | 200 + array         |
 
-## Testes automatizados (`verificacao.ts`)
-
-Além dos testes manuais acima, o repositório inclui `verificacao.ts`, um script
-que testa a lógica real das services (`enderecos.service.ts` e
-`clientes.service.ts`) simulando as respostas do ViaCEP (sem depender de
-internet), para validar cada cenário de status HTTP.
-
-Para rodar:
-
-```bash
-npx tsx verificacao.ts
-```
+## Testes
 
 Resultado obtido ao executar:
 
