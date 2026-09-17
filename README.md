@@ -1,7 +1,7 @@
 # API de Clientes com Consulta de CEP
 
 Mini projeto da Aula 06 (Consumo de APIs e Integração de Serviços). A API cadastra
-clientes e usa o serviço externo **ViaCEP** para completar o endereço automaticamente.
+clientes e usa o serviço externo **ViaCEP** para completar o endereço automaticamente
 
 ## Estrutura de pastas
 
